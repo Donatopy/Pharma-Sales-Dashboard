@@ -56,11 +56,13 @@ sales_weekly = load_data(sales_weekly_query)
 # Set up the dashboard title
 st.title('Pharma Sales Dashboard')
 
-# Add a sub-description with the dataset source
+# Add a sub-description with the dataset source and GitHub repository link
 st.markdown("""
-This dashboard visualizes sales data from various time aggregations (daily, hourly, weekly, monthly) for pharmaceutical products. 
+This dashboard visualizes sales data from various time aggregations (daily, hourly, weekly, monthly) for pharmaceutical products.
 
 The data is sourced from [Kaggle - Pharma Sales Data](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data/data).
+
+For the source code and additional resources, visit the [GitHub repository](https://github.com/Donatopy/Pharma-Sales-Dashboard).
 """)
 
 # Sidebar for additional analysis
