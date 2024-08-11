@@ -5,6 +5,8 @@ The Pharma Sales Dashboard is an interactive Streamlit application designed to p
 
 The data used for this dashboard is sourced from Kaggle. You can explore the dataset [here](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data/data).
 
+You can also access the live dashboard [here](https://pharma-sales-dashboard.streamlit.app/).
+
 ## Features
 - **Sales Trend by Product**: Line chart showing the sales trend for selected products over time.
 - **Comparative Sales by Product**: Bar chart comparing total sales across different products.
